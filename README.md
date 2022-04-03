@@ -1,5 +1,6 @@
 # RATE: Overcoming Noise and Sparsity of Textual Features in Real-Time Location Estimation
-This is the implementation of [RATE: Overcoming Noise and Sparsity of Textual Features in Real-Time Location Estimation](https://dl.acm.org/citation.cfm?id=3133067).
+
+This repository contains the source code for [**RATE: Overcoming Noise and Sparsity of Textual Features in Real-Time Location Estimation**](https://arxiv.org/abs/2111.06515).
 
 ## Code
 To run our code, please use the following commands:
