@@ -50,7 +50,7 @@ to get training and testing data (```Dataset/train.txt``` and ```Dataset/test.tx
 @inproceedings{zhang2017rate,
   title={RATE: Overcoming Noise and Sparsity of Textual Features in Real-Time Location Estimation},
   author={Zhang, Yu and Wei, Wei and Huang, Binxuan and Carley, Kathleen M and Zhang, Yan},
-  booktitle={Proceedings of the 2017 ACM on Conference on Information and Knowledge Management},
+  booktitle={CIKM'17},
   pages={2423--2426},
   year={2017},
   organization={ACM}
