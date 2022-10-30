@@ -3,8 +3,8 @@ import json
 word2cnt = dict()
 with open('data.json') as fin:
 	for line in fin:
-		js = json.loads(line)
-		text = js['text'].split()
+		data = json.loads(line)
+		text = data['text'].split()
 		for word in text:
 			if word not in word2cnt:
 				word2cnt[word] = 0
@@ -13,11 +13,12 @@ with open('data.json') as fin:
 train = 240000
 with open('data.json') as fin, open('train.txt', 'w') as fou1, open('test.txt', 'w') as fou2:
 	for idx, line in enumerate(fin):
-		js = json.loads(line)
+		data = json.loads(line)
 
-		d = js['language'] + ' ' + js['timezone'] + ' ' + js['offset'] + ' ' + js['userlang'] + ' ' + str(js['label']) + ' ' + js['latitude'] + ' ' + js['longitude']
+		d = data['language'] + ' ' + data['timezone'] + ' ' + data['offset'] + ' ' + \
+			data['userlang'] + ' ' + str(data['label']) + ' ' + data['latitude'] + ' ' + data['longitude']
 
-		text = js['text'].split()
+		text = data['text'].split()
 		ws = []
 		for word in text:
 			if word2cnt[word] <= 10000 and word2cnt[word] >= 5:

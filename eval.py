@@ -11,12 +11,12 @@ dist_sum = 0.0
 
 with open('result.txt') as fin:
 	for line in fin:
-		tmp = line.strip().split()
-		y.append(tmp[0])
-		y_pred.append(tmp[1])
+		data = line.strip().split()
+		y.append(data[0])
+		y_pred.append(data[1])
 
-		dist_sum += float(tmp[2])
-		if float(tmp[2]) <= 161:
+		dist_sum += float(data[2])
+		if float(data[2]) <= 161:
 			dist_161 += 1
 		tot += 1
 
