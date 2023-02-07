@@ -1,5 +1,7 @@
 # RATE: Overcoming Noise and Sparsity of Textual Features in Real-Time Location Estimation
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 This repository contains the source code for [**RATE: Overcoming Noise and Sparsity of Textual Features in Real-Time Location Estimation**](https://arxiv.org/abs/2111.06515).
 
 ## Code
