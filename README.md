@@ -48,6 +48,7 @@ to get training and testing data (```Dataset/train.txt``` and ```Dataset/test.tx
 | RATE   | 0.8905         | 0.5230   | 365.16                   | 0.4315  |
 
 ## Citation
+If you find this repository useful, please cite the following paper:
 ```
 @inproceedings{zhang2017rate,
   title={RATE: Overcoming Noise and Sparsity of Textual Features in Real-Time Location Estimation},
