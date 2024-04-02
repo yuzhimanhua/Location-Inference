@@ -55,7 +55,6 @@ If you find this repository useful, please cite the following paper:
   author={Zhang, Yu and Wei, Wei and Huang, Binxuan and Carley, Kathleen M and Zhang, Yan},
   booktitle={CIKM'17},
   pages={2423--2426},
-  year={2017},
-  organization={ACM}
+  year={2017}
 }
 ```
